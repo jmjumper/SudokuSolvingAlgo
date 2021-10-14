@@ -87,7 +87,7 @@ public class GUI extends JFrame implements ActionListener {
                 popUpFrame.getContentPane().add(BorderLayout.CENTER, panel);
                 popUpFrame.pack();
 
-                popUpFrame.setPreferredSize(new Dimension(300, 200));
+                popUpFrame.setPreferredSize(new Dimension(100, 200));
                 popUpFrame.setResizable(false);
                 popUpFrame.setLocationRelativeTo(null);
                 popUpFrame.setVisible(true);
